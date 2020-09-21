@@ -13,6 +13,9 @@
 		6742B60524EC081B00478031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6742B60324EC081B00478031 /* Main.storyboard */; };
 		6742B60724EC082000478031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6742B60624EC082000478031 /* Assets.xcassets */; };
 		6742B60A24EC082000478031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6742B60824EC082000478031 /* LaunchScreen.storyboard */; };
+		6742B61224EC085E00478031 /* NoRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6742B61124EC085E00478031 /* NoRecordView.swift */; };
+		6742B61424EC088500478031 /* NoRecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6742B61324EC088500478031 /* NoRecordView.xib */; };
+		6742B61624EC323000478031 /* lableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6742B61524EC323000478031 /* lableExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6742B60624EC082000478031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6742B60924EC082000478031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6742B60B24EC082000478031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6742B61124EC085E00478031 /* NoRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoRecordView.swift; sourceTree = "<group>"; };
+		6742B61324EC088500478031 /* NoRecordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoRecordView.xib; sourceTree = "<group>"; };
+		6742B61524EC323000478031 /* lableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lableExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				6742B60624EC082000478031 /* Assets.xcassets */,
 				6742B60824EC082000478031 /* LaunchScreen.storyboard */,
 				6742B60B24EC082000478031 /* Info.plist */,
+				6742B61124EC085E00478031 /* NoRecordView.swift */,
+				6742B61324EC088500478031 /* NoRecordView.xib */,
+				6742B61524EC323000478031 /* lableExtension.swift */,
 			);
 			path = reusable_uiview;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6742B61424EC088500478031 /* NoRecordView.xib in Resources */,
 				6742B60A24EC082000478031 /* LaunchScreen.storyboard in Resources */,
 				6742B60724EC082000478031 /* Assets.xcassets in Resources */,
 				6742B60524EC081B00478031 /* Main.storyboard in Resources */,
@@ -138,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6742B61624EC323000478031 /* lableExtension.swift in Sources */,
+				6742B61224EC085E00478031 /* NoRecordView.swift in Sources */,
 				6742B60224EC081B00478031 /* ViewController.swift in Sources */,
 				6742B5FE24EC081B00478031 /* AppDelegate.swift in Sources */,
 				6742B60024EC081B00478031 /* SceneDelegate.swift in Sources */,
